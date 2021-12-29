@@ -1,0 +1,148 @@
+QTabWidget::pane {
+    border: #686de0;
+    border-width: 1px;
+    border-style: solid;
+}
+QTabWidget::tab-bar {
+    alignment: center;
+}
+QTabBar::tab {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+}
+
+QTabBar::tab:selected {
+    color: #686de0;
+    border-top: 1px solid #686de0;
+    border-right: 1px solid #686de0;
+    border-left: 1px solid #686de0;
+    font-size: 16px;
+}
+QTabBar::tab:!selected {
+    color: white;
+    background: #686de0;
+    border: none;
+    border-top: 1px solid #686de0;
+    border-right: 1px solid #686de0;
+    border-left: 1px solid #686de0;
+}
+
+
+#not1 {
+    font-size: 12px;
+}
+
+QComboBox {
+   font-size: 20px;
+   background: none;
+   border: #2980b9;
+   border-width: 1px;
+   border-style: solid;
+}
+
+QComboBox::drop-down {
+   width: 7px;
+   border: #2980b9;
+   border-width: 16px;
+   border-style: solid;
+}
+
+QLabel {
+    font-size: 16px;
+}
+
+
+QCheckBox {
+   font-size: 15px;
+   border: #6ab04c;
+   border-width: 1px;
+   border-style: solid;
+   outline: 0;
+}
+QCheckBox::checked {
+   color: white;
+   background: #6ab04c;
+}
+QCheckBox::indicator {
+   width: 40px;
+   height: 40px;
+   border-style: none;
+}
+
+
+#path_btn {
+    border: none;
+    outline: 0;
+}
+
+#path_btn:hover {
+    border: 1px solid #2980b9;
+    border-radius: 10px;
+}
+
+QLineEdit::!disabled {
+    font-size: 17px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    padding-left: 3px;
+}
+
+
+QTreeView {
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    outline:0;
+}
+
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(image/tree/vline.png) 0;
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(image/tree/branch-more.png) 0;
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(image/tree/branch-end.png) 0;
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(image/tree/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url(image/tree/branch-open.png);
+}
+
+
+QGroupBox {
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
+#cikti_btn {
+    font-size:20px;
+    border-radius: 15px;
+    border: 1px solid #2980b9;
+    outline: 0;
+}
+
+#cikti_btn:hover {
+    border: 2px solid #2980b9;
+}
+
+
+#cikti_btn::pressed {
+    background: #2980b9;
+    color: white;
+}
+

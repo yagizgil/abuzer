@@ -1,0 +1,365 @@
+#new {
+    border: 1px solid #7f8fa6;
+    border-radius: 10px;
+    text-align:left;
+    padding-left: 10px;
+    outline:0;
+}
+
+#new:hover {
+    border: 2px solid #4caf50;
+}
+
+#imp {
+    border: 1px solid #7f8fa6;
+    border-radius: 10px;
+    text-align:left;
+    padding-left: 10px;
+    outline:0;
+}
+
+#imp:hover {
+    border: 2px solid #f39c12;
+}
+
+#ipt {
+    border: 1px solid #7f8fa6;
+    border-radius: 10px;
+    text-align:left;
+    padding-left: 10px;
+    outline:0;
+}
+
+#ipt:hover {
+    border: 2px solid #c23616;
+}
+
+
+
+
+
+
+
+
+QLabel {
+    font-size: 18px;
+}
+
+
+QLineEdit::!disabled {
+    font-size: 17px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    padding-left: 3px;
+}
+
+
+
+#path_btn {
+    border: none;
+    outline: 0;
+}
+
+#path_btn:hover {
+    border: 1px solid #2980b9;
+    border-radius: 10px;
+}
+
+
+
+#af{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+#set_btn {
+    border: 1px solid #f0f0f0;
+    outline: 0;
+}
+
+#set_btn:hover {
+    border: 1px solid #009688;
+    border-radius: 20px;
+}
+
+
+#save  {
+    border: none;
+    outline: 0;
+}
+#reset  {
+    border: none;
+    outline: 0;
+}
+#cancel  {
+    border: none;
+    outline: 0;
+}
+
+
+#newfile {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+
+
+#codesfr {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+
+QTextEdit {
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#contentfr {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+#contentsc {
+    border: none;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+/* yeni dosya ------------------------------------------------------------- */
+
+
+
+#frs {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+#close {
+    font-size: 20px;
+    border: 1px solid #e84118;
+    border-radius: 20px;
+    color: #e84118;
+}
+
+#close:hover {
+    border: 2px solid #e84118;
+}
+
+
+#close::pressed {
+    background: #e84118;
+    color: white;
+}
+
+#run {
+    border: none;
+    outline: 0;
+}
+
+#run:hover {
+    border: 1px solid #4cd137;
+    border-radius: 20px;
+}
+
+#preffr {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#sizelbl {
+    font-size: 20px;
+}
+
+
+#delet {
+    border: 1px solid #00afe9;
+    border-radius: 20px;
+    outline: 0;
+}
+
+#delet:hover {
+    border: 2px solid #00afe9;
+    
+}
+
+
+
+#detay_frm{
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+QScrollArea {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+#preflbl {
+    font-size: 14px;
+}
+
+
+/*--filedizin----------------------------*/
+
+
+
+QTabWidget {
+    width: 0px;
+    height: 0px;
+    border-style: none;
+}
+QTabBar::tab {
+    width: 0px;
+    height: 0px;
+    border-style: none;
+}
+QTabWidget::pane {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+QComboBox {
+   font-size: 20px;
+   background: none;
+   border: #2980b9;
+   border-width: 1px;
+   border-style: solid;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   padding-left: 2px;
+   
+   margin-top:5px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+QComboBox::drop-down {
+   width: 7px;
+   border: #2980b9;
+   border-width: 16px;
+   border-style: solid;
+}
+
+
+#dizinbtn {
+    border: none;
+    outline:0;
+}
+
+#dizinbtn:hover {
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+}
+
+
+#file_search {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#rename {
+    border: none;
+    outline:0;
+}
+
+#rename:hover {
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+}
+
+#yonetim_lbl {
+    font-size: 25px;
+}
+
+
+#pmenum {
+    font-size: 10px;
+}
+
+#yonetim_name {
+    font-size: 25px;
+}
+
+
+#filecontent {
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    font-size: 25px;
+}
+
+QTreeView {
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    outline:0;
+}
+
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(image/tree/vline.png) 0;
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(image/tree/branch-more.png) 0;
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(image/tree/branch-end.png) 0;
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(image/tree/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url(image/tree/branch-open.png);
+}
+
+
+#btnlbl {
+    font-size: 14px;
+}
+
+#filepath {
+    font-size: 14px;
+}
+
+#filefrpath {
+    font-size: 10px;
+}
+
+
+#onoff {
+    border: none;
+    outline: 0;
+}
+
+
+QTextEdit {
+    border: none;
+    background: none;
+    border-radius: 20px;
+    margin: 10px;
+}

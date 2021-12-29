@@ -1,0 +1,133 @@
+#f {
+    border: 1px solid black;
+    border-radius: 50px;
+    background: none;
+}
+
+QComboBox {
+   font-size: 20px;
+   background: none;
+   border: #2980b9;
+   border-width: 1px;
+   border-style: solid;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   padding-left: 2px;
+   
+   margin-top:10px;
+   margin-right:25px;
+}
+
+QComboBox::drop-down {
+   width: 7px;
+   border: #2980b9;
+   border-width: 16px;
+   border-style: solid;
+}
+
+#medya_cb {
+    margin-top:0px;
+    margin-left:25px;
+}
+
+QLineEdit::!disabled {
+    font-size: 17px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    padding-left: 3px;
+    
+    margin-top:10px;
+    margin-left:25px;
+}
+
+#medya_search {
+    margin-right:25px;
+}
+
+#af{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#lg{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#arayuz_scr {
+    margin: 10px;
+    border-radius: 50px;
+}
+
+
+#header {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+#medya_header {
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#etiket {
+    padding-right: 15px;
+}
+
+#btn {
+    font-size:20px;
+    border-radius: 15px;
+    border: 1px solid #2980b9;
+    outline: 0;
+}
+
+#btn:hover {
+    border: 2px solid #2980b9;
+}
+
+
+#btn::pressed {
+    background: #2980b9;
+    color: white;
+}
+
+
+
+
+
+
+
+#fram {
+    border: none;
+}
+
+#m_btn {
+    border: none;
+    font-size: 20px;
+    border: 1px solid #44bd32;
+    border-radius: 15px;
+    outline: 0;
+}
+
+#m_btn:hover {
+    background: #44bd32;
+    color: white;
+}
+
+#m_on_btn {
+    border: none;
+    outline:0;
+}
+
+#m_on_btn:hover {
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+

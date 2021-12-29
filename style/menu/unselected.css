@@ -1,0 +1,23 @@
+QPushButton {
+    border: none;
+    outline: 0;
+    text-align: center;
+}
+
+QFrame {
+    background: none;
+}
+
+QFrame:hover {
+    background: #f7f1e3;
+}
+
+QLabel {
+    font-size: 20px;
+    color: white;
+}
+QLabel:hover {
+    color: #2c2c54;
+}
+
+

@@ -1,0 +1,26 @@
+#btn {
+    background: #27ae60;
+    border: none;
+    color: white;
+}
+
+#af {
+    border: 2px solid #27ae60;
+}
+
+#lg {
+    border: 2px solid #27ae60;
+}
+
+#details {
+    border-radius: 17px;
+    border: 1px solid #3498db;
+}
+
+#details:hover {
+    border: 2px solid #3498db;
+}
+
+#details::pressed {
+    background: #3498db;
+}
